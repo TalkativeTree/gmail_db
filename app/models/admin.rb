@@ -3,5 +3,6 @@ class Admin < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :interactions, dependent: :destroy
+  has_many :gmail_messages
 
 end

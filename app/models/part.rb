@@ -1,3 +1,3 @@
 class Part < ActiveRecord::Base
-  belongs_to :gmail_messages
+  belongs_to :gmail_message
 end
