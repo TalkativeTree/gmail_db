@@ -1,4 +1,5 @@
 GmailDb::Application.routes.draw do
+  root to: 'admin#index', constraints: lambda { |r| r.env['warden'].authenticate? }, as: :admin
   root 'home#index'
   devise_for :admins
 
