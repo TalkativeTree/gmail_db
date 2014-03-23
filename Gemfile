@@ -7,6 +7,8 @@ gem 'rails', '4.0.4'
 gem 'pg'
 gem 'devise'
 gem 'mail'
+gem 'ruby-gmail'
+gem 'sanitize'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
